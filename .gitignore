@@ -1,0 +1,10 @@
+*.*
+!**/.gitignore
+!*.dsn
+!*.bsm
+!*.opj
+!*.brd
+!*.dra
+!**/*.md
+**/AUTOSAVE.*
+
