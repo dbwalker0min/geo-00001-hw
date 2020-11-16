@@ -1,6 +1,6 @@
 (ExpressProject "goc"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S009 (3878102)  [8/4/2020]-[10/12/20]")
+  (SoftwareVersion "17.4-2019 S009 (3878102)  [8/4/2020]-[10/28/20]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -145,6 +145,10 @@
       (Type "Log File")
       (LogFile "d:\documents\cadence\geostuff_goc\allegro\netlist.log")))
   (PartMRUSelector
+    ("TEST HOLE"
+      (FullPartName "TEST HOLE.Normal")
+      (LibraryName "D:\PCBLIBS\ORCAD_PARTS\JRF-DISCRETE.OLB")
+      (DeviceIndex "0"))
     (DIODE
       (FullPartName "DIODE.Normal")
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
@@ -187,10 +191,6 @@
       (DeviceIndex "0"))
     (LED_QBLP600-RIG_QT
       (FullPartName "LED_QBLP600-RIG_QT.Normal")
-      (LibraryName "D:\PCBLIBS\ORCAD_PARTS\JRF-DISCRETE.OLB")
-      (DeviceIndex "0"))
-    ("TEST HOLE"
-      (FullPartName "TEST HOLE.Normal")
       (LibraryName "D:\PCBLIBS\ORCAD_PARTS\JRF-DISCRETE.OLB")
       (DeviceIndex "0"))
     (IC_ISM303DAC_ST
@@ -251,19 +251,19 @@
       (Path "Design Resources" "Library")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources"))
+      (Select "Design Resources" "d:\documents\cadence\geostuff_goc\goc.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 741"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 658"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1427 24 759")
-        (Scroll "302 285")
-        (Zoom "192")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 676")
+        (Scroll "-353 0")
+        (Zoom "96")
         (Occurrence "/"))
       (Path "D:\DOCUMENTS\CADENCE\GEOSTUFF_GOC\GOC.DSN")
       (Schematic "SCHEMATIC1")
@@ -271,8 +271,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1427 24 759")
-        (Scroll "257 24")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 676")
+        (Scroll "10 19")
         (Zoom "192")
         (Occurrence "/"))
       (Path "D:\DOCUMENTS\CADENCE\GEOSTUFF_GOC\GOC.DSN")
@@ -281,9 +281,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1427 24 759")
-        (Scroll "0 234")
-        (Zoom "200")
+        (Placement "44 0 1 -1 -1 5 24 5 1674 24 676")
+        (Scroll "-3 210")
+        (Zoom "168")
         (Occurrence "/"))
       (Path "D:\DOCUMENTS\CADENCE\GEOSTUFF_GOC\GOC.DSN")
       (Schematic "SCHEMATIC1")
